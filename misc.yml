@@ -1,0 +1,5 @@
+snippets:
+- uid: frgm-776a074a5037
+  group: misc
+  name: Replace `ssh://git@` to `https://` in .git/config
+  content: fd -H config ~/src | rg '.git/config' | xargs sd 'ssh://git@' 'https://'
