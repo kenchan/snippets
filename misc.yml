@@ -3,3 +3,9 @@ snippets:
   group: misc
   name: Replace `ssh://git@` to `https://` in .git/config
   content: fd -H config ~/src | rg '.git/config' | xargs sd 'ssh://git@' 'https://'
+- uid: history-bb82be2fb43a
+  group: misc
+  name: Serve current directory
+  content: python -m http.server
+  labels: 
+    - python
