@@ -7,5 +7,5 @@ snippets:
   group: misc
   name: Serve current directory
   content: python -m http.server
-  labels: 
-    - python
+  labels:
+  - python
