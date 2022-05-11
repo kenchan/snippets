@@ -1,0 +1,7 @@
+snippets:
+- uid: frgm-65d0cbe13fe9
+  group: windows
+  name: Edit hosts
+  content: powershell.exe -NoProfile -ExecutionPolicy unrestricted -Command "start notepad C:\Windows\System32\drivers\etc\hosts -verb runas"
+  labels:
+  - powershell
