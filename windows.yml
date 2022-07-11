@@ -5,3 +5,11 @@ snippets:
   content: powershell.exe -NoProfile -ExecutionPolicy unrestricted -Command "start notepad C:\Windows\System32\drivers\etc\hosts -verb runas"
   labels:
   - powershell
+  - wsl
+- uid: frgm-30f874344975
+  group: windows
+  name: start minikube
+  content: powershell.exe -NoProfile -ExecutionPolicy unrestricted -Command "Start-Process minikube.exe start -Verb runas"
+  labels:
+  - powershell
+  - wsl
