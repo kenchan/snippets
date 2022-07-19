@@ -9,3 +9,9 @@ snippets:
   content: python -m http.server
   labels:
   - python
+- uid: frgm-fa1d5d46f132
+  group: misc
+  name: Remove old files
+  content: find ./ -mtime +90 | xargs rm
+  labels:
+  - shell
