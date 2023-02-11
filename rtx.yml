@@ -3,3 +3,7 @@ snippets:
   group: rtx
   name: rtx uninstall
   content: rtx list -v | peco | sed -E 's/^[^a-z]+([a-z]+) ([0-9.]+).+/\1@\2/' | xargs rtx uninstall
+- uid: history-b072831323b9
+  group: rtx
+  name: rtx update all versions
+  content: rtx p | xargs -I{} rtx install {}@latest
